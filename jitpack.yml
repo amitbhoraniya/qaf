@@ -1,0 +1,9 @@
+jdk:
+  - openjdk8
+before_install:
+   - echo "Running a custom before_install command"
+install:
+   - echo "Running a custom install command"
+   - ant
+env:
+   MYVAR: "custom environment variable"
